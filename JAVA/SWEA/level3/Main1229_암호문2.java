@@ -3,7 +3,7 @@ package level3;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main1228_암호문2 {
+public class Main1229_암호문2 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);

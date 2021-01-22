@@ -1,5 +1,6 @@
 package level3;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main1860_진기의최고급붕어빵 {
@@ -12,33 +13,26 @@ public class Main1860_진기의최고급붕어빵 {
 			int N = sc.nextInt();
 			int M = sc.nextInt();
 			int K = sc.nextInt();
-			int cnt = 0;
+			int[] time = new int[N];
 			boolean flag = true;
-			int[] time = new int[101];
 			
 			for(int i = 0; i < N; i++) {
-				time[sc.nextInt()] ++;
+				time[i] = sc.nextInt();
 			}
+			Arrays.sort(time);
 
-			for(int i = 0; i< 100 ; i++) {
-				if(i % M == 0 && i>0) cnt ++;
-				if(cnt > 0 && time[i]> 0) {
-					if(cnt >= time[i]) {
-						cnt -= time[i];
-					}else {
-						flag = false;
-						break;
-					}
-				}else if (cnt <= 0 && time[i]> 0) {
+			for(int i = 0; i < N; i++) {
+				if ((time[i] / M) * K - (i+1) < 0) {
 					flag = false;
 					break;
 				}
 			}
 			
 			if(flag) {
-				System.out.printf("#%d %s\n", t, "Possible");
+				System.out.printf("#%d %s\n", t , "Possible");
 			}else {
-				System.out.printf("#%d %s\n", t, "Impossible");
+				System.out.printf("#%d %s\n", t , "Impossible");
+				
 			}
 		}
 	}
