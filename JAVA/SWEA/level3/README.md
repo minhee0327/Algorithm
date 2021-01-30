@@ -2,7 +2,7 @@
 
 ### 요약
 
-* **1209 SUM**:  대각선 합 (ul :왼쪽아래, dr: 오른쪽 위)
+* **1209 SUM**:  대각선 합 (ul :왼쪽위, dr: 오른쪽 아래)
 
   * ```java
     	private static void diagonally(int[][] arr) {
