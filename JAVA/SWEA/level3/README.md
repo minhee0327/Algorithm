@@ -65,7 +65,7 @@
     int idx = Arrays.asList(strArr).indexOf(num);
     ```
 
-* **1493 수의 새로운 연산**: 좌표에서 규칙찾기 [참조](https://zzang9ha.tistory.com/262)
+* **1493 수의 새로운 연산**: 좌표에서 규칙찾기 [참조](https://github.com/minhee0327/Algorithm/blob/master/JAVA/SWEA/level3/Main1493_%EC%88%98%EC%9D%98%EC%83%88%EB%A1%9C%EC%9A%B4%EC%97%B0%EC%82%B0.java)
 * **1873 상호의배틀필드**: 구현 시간이 오래 걸림 [참조](https://github.com/minhee0327/Algorithm/blob/master/JAVA/SWEA/level3/Main1873_%EC%83%81%ED%98%B8%EC%9D%98%EB%B0%B0%ED%8B%80%ED%95%84%EB%93%9C.java)
 
 * **2805 농작물 수확하기**: 2차원 배열 다이아몬드(diamond) 모양으로 합산.  [참조](https://github.com/minhee0327/Algorithm/blob/master/JAVA/SWEA/level3/Main2805_%EB%86%8D%EC%9E%91%EB%AC%BC%EC%88%98%ED%99%95%ED%95%98%EA%B8%B0.java)
@@ -172,7 +172,9 @@
 
 
 
-
+* 4371 항구에 들어오는 배: LinkedList와 ArrayList의 성능에 대해 고려해보게 되었던 문제.
+  * remove()의 필요성을 줄여서 푸는 방법을 생각하는게 좋겠다고 생각했고
+  * ArrayList가 탐색에는 더 효율적이니까 시간초과 나면 한번 고려해봐야한다.
 
 
 
@@ -180,7 +182,6 @@
 
 - [1244 최대상금](https://github.com/minhee0327/Algorithm/blob/master/JAVA/SWEA/level3/Main1244_%EC%B5%9C%EB%8C%80%EC%83%81%EA%B8%88.java): 완전탐색
 - [2814 최장경로](https://github.com/minhee0327/Algorithm/blob/master/JAVA/SWEA/level3/Main2814_%EC%B5%9C%EC%9E%A5%EA%B2%BD%EB%A1%9C.java): DFS 
-- 
 
 
 
