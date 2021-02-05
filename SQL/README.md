@@ -5,7 +5,7 @@
 - 문제 풀고, md 파일로 작성해서 보관
 - ToC
     - [HackerRank](https://github.com/minhee0327/Algorithm/tree/master/SQL/HackerRank)
-        - [Basic Select](https://github.com/minhee0327/Algorithm/tree/master/SQL/HackerRank)
+        - [Basic Select](https://github.com/minhee0327/Algorithm/blob/master/SQL/HackerRank/Basic%20Select.md)
         - Advanced Select
         - Aggregation
         - Basic join
