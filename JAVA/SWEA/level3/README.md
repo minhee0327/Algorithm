@@ -180,12 +180,51 @@
 
 
 
+* 5549 홀수일까 짝수일까
+
+  * 홀짝을 구할때 고려할게 맨마지막 자리 수만 고려하면 된다는거!! 기억!
+
+* 5688 세제곱근 찾기
+
+  ```java
+  //double to int
+  Double cbrt = Math.cbrt(N);
+  int intCbrt = cbrt.intValue();		
+  ```
+
+* 5948 새샘이의 735게임
+
+  ```java
+  //combination (backtrack구현)으로 풀이 중 일부
+  private static void combination(int[] arr, boolean[] visited, int dept, int r) {
+  		if(r == 0) {
+  			int sumVal = sum(arr, visited);
+  			ans.add(sumVal);
+  			return;
+  		}
+  		if(dept == arr.length) {
+  			return;
+  		}else {
+  			for(int i = dept; i<arr.length; i++) {
+  				visited[i] = true;
+  				combination(arr, visited, i+1, r-1);
+  				visited[i] = false;
+  			}
+  		}
+  		
+  	}
+  ```
+
+* 
+
 ## Search 문제 유형
 
 - [1244 최대상금](https://github.com/minhee0327/Algorithm/blob/master/JAVA/SWEA/level3/Main1244_%EC%B5%9C%EB%8C%80%EC%83%81%EA%B8%88.java): 완전탐색
 - [2814 최장경로](https://github.com/minhee0327/Algorithm/blob/master/JAVA/SWEA/level3/Main2814_%EC%B5%9C%EC%9E%A5%EA%B2%BD%EB%A1%9C.java): DFS 
 
-
+* 5215 햄버거다이어트: 
+  * DFS, 완전탐색 
+  * DP knapsack 알고리즘
 
 
 
