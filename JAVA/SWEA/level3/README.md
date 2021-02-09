@@ -1,6 +1,6 @@
 # SWEA D3 요약
 
-### 요약
+### * 시험 전에 읽고 들어가자 *
 
 * **1209 SUM**:  대각선 합 (ul :왼쪽위, dr: 오른쪽 아래)
 
@@ -14,8 +14,6 @@
     		max = Math.max(max, Math.max(ul, dr));
     	}
     ```
-
-
 
 
 
@@ -222,13 +220,13 @@
 - [1244 최대상금](https://github.com/minhee0327/Algorithm/blob/master/JAVA/SWEA/level3/Main1244_%EC%B5%9C%EB%8C%80%EC%83%81%EA%B8%88.java): 완전탐색
 - [2814 최장경로](https://github.com/minhee0327/Algorithm/blob/master/JAVA/SWEA/level3/Main2814_%EC%B5%9C%EC%9E%A5%EA%B2%BD%EB%A1%9C.java): DFS 
 
-* 5215 햄버거다이어트: 
+* [5215 햄버거다이어트: ](https://github.com/minhee0327/Algorithm/blob/master/JAVA/SWEA/level3/Main5215_%ED%96%84%EB%B2%84%EA%B1%B0%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8.java)
   * DFS, 완전탐색 
   * DP knapsack 알고리즘
 
-* 5293 이진문자열 복원
+* [5293 이진문자열 복원](https://github.com/minhee0327/Algorithm/blob/master/JAVA/SWEA/level3/Main5293_%EC%9D%B4%EC%A7%84%EB%AC%B8%EC%9E%90%EC%97%B4%EB%B3%B5%EC%9B%902.java)
 
-
+* [6507 그래프의 삼각형](https://github.com/minhee0327/Algorithm/blob/master/JAVA/SWEA/level3/Main6057_%EA%B7%B8%EB%9E%98%ED%94%84%EC%9D%98%EC%82%BC%EA%B0%81%ED%98%95.java) : 탐색으로 풀어도 괜찮을 것 같은데, 반복문으로 구현했음;
 
 
 
