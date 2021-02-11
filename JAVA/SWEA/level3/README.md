@@ -215,7 +215,7 @@
   	}
   ```
 
-* **5607 조합** : [참조](https://minkwon4.tistory.com/25)
+* [**5607 조합 문제**](https://github.com/minhee0327/Algorithm/blob/master/JAVA/SWEA/level3/Main5607_%EC%A1%B0%ED%95%A9.java) : [참조자료](https://minkwon4.tistory.com/25)
 
   * nCr = n!/(n-r)!(r)!
   * 모듈러 연산 (+, -, *만) 
