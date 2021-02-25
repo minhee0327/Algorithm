@@ -1,7 +1,40 @@
 # SWEA D4 요약
 
-* 1250 하나로
-  * 문제를 읽고, 최소신장트리임은 떠올랐는데, 문제에서 해저 터널 길이(가중치)가 없는데 뭐지 싶었다;
-    (clac메서드 참조: 두 x, y 좌표를 알때 가장 최소값인 빗변의 길이를 구했다;;)
-  * 나머지는 기존에 최소신장트리 구현과 유사했다.
+* 풀면서 생각하지 못했거나, 시간이 올래걸렸거나 혹은 좋은 idea 위주로 정리.
+* 정리 목적: 나중에 다시 보면 찾기 편하게. 이해 빠르게.
+* No. 문제 링크, 문제이름에 푼 코드를 링크 걸기.
+
+| No.                                                          | 문제이름                                                     | 유형(내 생각 정리)        | 비고 (특이사항, hint, 핵심 등)                               |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------- | ------------------------------------------------------------ |
+| [1210](https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=4&contestProbId=AV14ABYKADACFAYh&categoryId=AV14ABYKADACFAYh&categoryType=CODE&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=JAVA&select-1=4&pageSize=10&pageIndex=12) | [Ladder](https://github.com/minhee0327/Algorithm/blob/master/JAVA/SWEA/level4/Main1210_Ladder.java) | 방향벡터(dx, dy), 길찾기  | 거꾸로 생각하기                                              |
+| [1211](https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=4&contestProbId=AV14BgD6AEECFAYh&categoryId=AV14BgD6AEECFAYh&categoryType=CODE&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=JAVA&select-1=4&pageSize=10&pageIndex=12) | [Ladder](https://github.com/minhee0327/Algorithm/blob/master/JAVA/SWEA/level4/Main1211_Ladder2.java) | 방향벡터(dx, dy), 길찾기  |                                                              |
+| 1218                                                         | 괄호 짝짓기                                                  | sack                      |                                                              |
+| 1219                                                         | 길찾기                                                       | search(dfs), 방향그래프   |                                                              |
+| 1222                                                         | 계산기1                                                      | stack                     | [후위표기식 개념 정리](https://github.com/minhee0327/Algorithm/tree/master/python/SWEC/02_Stack2#%EA%B3%84%EC%82%B0%EA%B8%B0%EB%AC%B8%EC%A0%9C), 여기서는 후위 표기 없이도 풀렸음 |
+| 1223                                                         | 계산기2                                                      | stack                     |                                                              |
+| 1224                                                         | 계산기3                                                      | stack                     |                                                              |
+| 1226                                                         | 미로1                                                        | 방향벡터                  | 미로 1 구현 시 공통으로 사용하는 것 field에 static으로 구현. |
+| 1227                                                         | 미로2                                                        | 방향벡터                  | 미로2는 미로1에서 숫자 하나만 바꿔도 풀렸다.                 |
+| 1231                                                         | 중위순회                                                     | 순회, 재귀                | 1231, 1232, 1233 비슷한 유형                                 |
+| 1232                                                         | 사칙연산                                                     | 순회,재귀, dfs            | StringTockenizer의 편리함을 배웠다. (위 문제와 비교해보면 좋을 듯) |
+| 1233                                                         | 사칙연산유효성검사                                           | 순회,재귀,                | 1231 로 얻은 value를                                         |
+| 1238                                                         | contact                                                      | bfs                       | 너비우선을 선택한 이유를 고민해보기. (queue로 bfs 구현.)     |
+| 1249                                                         | 보급로                                                       | bfs, 방향                 |                                                              |
+| 1250                                                         | 하나로                                                       | 크루스칼(union-find), MST | [크루스칼 알고리즘(참조)](https://github.com/Algo-Holics/CodingTest-prep/tree/minhee/practice/graph), 해저터널 길이 가중치 (clac함수 참조) |
+| 1258                                                         | 행렬찾기                                                     | dfs                       | 나의 경우 우측, 하단 쪽으로 가면서 0이 나온 위치정보와 넓이 저장해서 구현. |
+| [1486](https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=4&contestProbId=AV2b7Yf6ABcBBASw&categoryId=AV2b7Yf6ABcBBASw&categoryType=CODE&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=JAVA&select-1=4&pageSize=10&pageIndex=10) | 장훈이의 높은 선반                                           | 완전탐색                  | 나의 경우 완전탐색으로 구현                                  |
+| [1494](https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=4&contestProbId=AV2b_WPaAEIBBASw&categoryId=AV2b_WPaAEIBBASw&categoryType=CODE&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=JAVA&select-1=4&pageSize=10&pageIndex=11) | 사랑의 카운슬러                                              | dfs                       | 문제가 이해가 안되서 참조해서 구현함. [참조 링크](https://elmeice.tistory.com/12) |
+| [1803](https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=4&contestProbId=AV4yBSgaCaYDFAUx&categoryId=AV4yBSgaCaYDFAUx&categoryType=CODE&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=JAVA&select-1=4&pageSize=10&pageIndex=10) | ShortestPathFaster                                           | 다익스트라                | 문제 유형이 다익스트라인 것은 알았는데, 구현이 오래걸림.<br />새롭게 알게된거 Comparatble에서 Long타입으로 비교하고싶을때 Long.compare(); |
+| [1808](https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=4&contestProbId=AV4yC3pqCegDFAUx&categoryId=AV4yC3pqCegDFAUx&categoryType=CODE&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=JAVA&select-1=4&pageSize=10&pageIndex=10) | 지희의 고장난 계산기                                         |                           |                                                              |
+| [1824](https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=4&contestProbId=AV4yLUiKDUoDFAUx&categoryId=AV4yLUiKDUoDFAUx&categoryType=CODE&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=JAVA&select-1=4&pageSize=10&pageIndex=10) | 혁진이의 프로그램 검증                                       |                           |                                                              |
+| 1861                                                         | 정사각형 방                                                  | dfs                       |                                                              |
+| 1865                                                         | 동철이의 일 분배                                             | dfs                       |                                                              |
+| 1868                                                         | 파핑파핑 지뢰찾기                                            |                           |                                                              |
+|                                                              |                                                              |                           |                                                              |
+|                                                              |                                                              |                           |                                                              |
+|                                                              |                                                              |                           |                                                              |
+|                                                              |                                                              |                           |                                                              |
+|                                                              |                                                              |                           |                                                              |
+
+
 
