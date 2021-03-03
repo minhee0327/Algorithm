@@ -2,7 +2,10 @@
 - BOJ
     - 단계별로 풀어보기
     - 유형별로 풀어보기
+- HackerRank
+    - dailyChllenge
 - Programmers
-    - Level별로 파일 분류
+    - Level별 폴더
+    - 고득점 Kit (자료구조, 알고리즘별)
 - SWEA
     - Difficulty별로 파일 분류 (Level이라고 명명)
