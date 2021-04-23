@@ -28,6 +28,9 @@ public class Main5293_이진문자열복원2 {
 	private static void bfs(int a, int b, int c, int d, String makingWord) {
 		if (ans != "")
 			return;
+		//이 코드가 왜 들어가야만 했는지 다시 생각하는데 시간이 좀 걸렸다.
+		//01(b) 또는 10(c) 가 만약 차이가 1보다 크다면 문자열을 복구할 수 없기 때문에 더 확인하지 않고 반환을 해야한다.
+		//(서로다른 두 문자"1", "0" 의 비율을 맞춰야한다.)
 		if (Math.abs(b - c) > 1)
 			return;
 		if (a < 0 || b < 0 || c < 0 || d < 0)
