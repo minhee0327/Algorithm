@@ -65,3 +65,23 @@ on ai.animal_id = ao.animal_id
 order by ai.datetime - ao.datetime
 LIMIT 2;
 ```
+
+
+
+**5. 헤비 유저가 소유한 장소**
+
+```sql
+select id, name, host_id
+from places
+where host_id in (
+    SELECT host_id
+    from places
+    group by host_id
+    having count(*) >= 2
+)
+order by id;
+```
+
+* 일치하는것 기준을 host_id 가 아닌 id 로 잡았다; 문제를 잘 읽자..!
+
+  
