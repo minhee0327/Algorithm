@@ -1,5 +1,5 @@
 package programmers.level2;
-
+//  방금 그 곡
 public class Sol14_1 {
     public static void main(String[] args) {
         System.out.println(new Solution14_1().solution("ABCDEFG", new String[]{"12:00,12:14,HELLO,CDEFGAB", "13:00,13:05,WORLD,ABCDEF"}));
